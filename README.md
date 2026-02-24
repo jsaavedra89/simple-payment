@@ -1,4 +1,4 @@
-# 💳 Payment Dashboard
+# 💳 Panel de pago simple
 
 Sistema Fullstack para simulación de pagos desarrollado con:
 
