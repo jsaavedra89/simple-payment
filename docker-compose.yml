@@ -23,7 +23,10 @@ services:
       - "8080:8080"
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL=http://backend:8080
     container_name: payment_frontend
     depends_on:
       - backend
